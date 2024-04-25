@@ -89,24 +89,24 @@ const DataviewA = () => {
           <form style={{ backgroundColor: 'white' }}>
             <TextField
               label="Name"
-              name="fname"
-              value={updateData.fname}
+              name="title"
+              value={updateData.title}
               onChange={handleChange}
               fullWidth
               margin="normal"
             />
             <TextField
               label="Price"
-              name="fprice"
-              value={updateData.fprice}
+              name="price"
+              value={updateData.price}
               onChange={handleChange}
               fullWidth
               margin="normal"
             />
             <TextField
               label="Image"
-              name="imageUrl"
-              value={updateData.imageUrl}
+              name="image"
+              value={updateData.image}
               onChange={handleChange}
               fullWidth
               margin="normal"
